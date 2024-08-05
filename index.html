@@ -1,0 +1,30 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Drugstore System</title>
+</head>
+<body>
+    <div id="logo">
+        <img src="./Assets/logo.png">
+    </div>
+    <div class="login-container">
+        <h2>Login</h2>
+        <input type="email" id="email" placeholder="Digite seu e-mail" required>
+        <input type="password" id="password" placeholder="Digite sua senha" required>
+        <button onclick="login()">Entrar</button>
+        <button onclick="showRegistration()">Cadastrar Usuário</button>
+    </div>
+    <div class="registration-container" style="display: none;">
+        <h2>Cadastrar Usuário</h2>
+        <input type="email" id="reg-email" placeholder="Digite seu e-mail" required>
+        <input type="password" id="reg-password" placeholder="Digite sua senha" required>
+        <button onclick="registerUser()">Cadastrar</button>
+        <button onclick="hideRegistration()">Voltar</button>
+    </div>
+    <p>Desenvolvedores: Rudá Passos e Wivim David</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
